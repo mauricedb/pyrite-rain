@@ -1,9 +1,23 @@
 // server.js
 // where your node app starts
 
+
 // init project
 var express = require('express');
 var app = express();
+
+// var zmq = require('zmq')
+//   , sock = zmq.socket('pull');
+  
+  
+// sock.connect('tcp://pubsub.besteffort.ndovloket.nl:7658');
+// console.log('Worker connected to pubsub.besteffort.ndovloket.nl port 7658');
+ 
+// sock.on('message', function(msg){
+//   console.log('work: %s', msg.toString());
+// });
+
+
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
